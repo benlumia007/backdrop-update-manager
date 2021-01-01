@@ -1,0 +1,23 @@
+{
+    "name": "benlumia007/backdrop-update-manager",
+    "description": "Backdrop Update Manager gives users the ability to update custom themes or plugins.",
+    "keywords": [
+        "wordpress",
+        "wordpress-plugin",
+        "wordpress-theme"
+    ],
+    "homepage": "https://github.com/benlumia007/backdrop-update-manager",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Benjamin Lu",
+            "email": "benlumia007@gmail.com",
+            "homepage": "https://getbenonit.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Benlumia007\\Backdrop\\": "src/"
+		}
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"name": "backdrop-update-manager",
+	"version": "1.0.0",
+	"description": "Backdrop Update Manager gives users the ability to update custom themes or plugins.",
+	"main": "resources/assets/js/app.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/benlumia007/backdrop-update-manager.git"
+	},
+	"author": "Benjamin Lu",
+	"license": "GPL-2.0+",
+	"bugs": {
+		"url": "https://github.com/benlumia007/backdrop-update-manager/issues"
+	},
+	"homepage": "https://github.com/benlumia007/backdrop-update-manager#readme",
+	"scripts": {
+		"build": "npm run prod && npm run export",
+		"prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"export": "cross-env export=1 NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+	},
+	"dependencies": {
+		"cross-env": "^7.0.3",
+		"laravel-mix": "^5.0.9",
+		"resolve-url-loader": "^3.1.2",
+		"rimraf": "^3.0.2",
+		"vue-template-compiler": "^2.6.12"
+	}
+}
