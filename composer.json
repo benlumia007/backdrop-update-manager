@@ -17,7 +17,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Benlumia007\\Backdrop\\": "src/"
-		}
+            "Benlumia007\\Backdrop\\Update\\Manager\\": "src/"
+        },
+        "files": [
+            "src/Includes/API/api.php",
+            "src/Includes/Templates/list-plugins.php",
+            "src/Includes/Templates/plugin-information.php",
+            "src/Includes/Templates/query-plugins.php",
+            "src/Includes/Templates/query-themes.php"
+        ]
     }
 }

@@ -3,7 +3,7 @@
  * Plugin Name: Backdrop Update Manager
  * Author:      Benjamin Lu
  * Author URI:  https://benjlu.com
- * Description: Backdrop Post Types registers post types of your choice.
+ * Description: Backdrop Update Manager
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Domain Path: /languages
